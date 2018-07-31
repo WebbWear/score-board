@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Score Board</title>
-    <link rel="stylesheet" href="/screen.css">
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <script src="/main.js" charset="utf-8"></script>
-  </body>
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Score Board</title>
+  <link rel="stylesheet" href="/screen.css">
+</head>
+<body>
+  
+  <h1 class="scoreBoard">Score Board</h1>
+  
+  <div class="teams">
+    
+    <section class="team">
+      <h2 class="team1Name">Team 1</h2>
+
+      <div class="score1">0</div>
+
+      <section class="updatename">
+          <div class="updateTeam1">Update Team Name 1</div>
+          <input class="team1nameInput" name="team1-name">
+          <button class="updateteam1name">Update</button>            
+      </section>
+      
+      <section class="update-score"> 
+        <div>Update Team 1 Score</div>
+        <button class="add1">Add 1</button>
+        <button class="team1Subtract1">Subtract 1</button>
+      </section> 
+    </section>
+    
+    <section class="team">
+        <h2 class="team2NameDisplay">Team 2</h2>
+  
+        <div class="score2">10</div>
+  
+        <section class="updatename">
+            <div>Update Team Name 2</div>
+            <input  class="team2Name">
+            <button class="updateteam2name">Update</button>            
+        </section>
+        
+        <section class="update-score"> 
+          <div>Update Team 2 Score</div>
+          <button class="add1">Add 1</button>
+          <button class="team2Subtract1">Subtract 1</button>
+        </section> 
+      </section> 
+  </div>
+  
+  <script src="/main.js" charset="utf-8"></script>
+</body>
 </html>

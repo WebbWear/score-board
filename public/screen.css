@@ -7,3 +7,29 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+.scoreBoard {
+  font-size: 8em;
+  text-align: center;
+}
+
+.score {
+  font-size: 3em;
+  padding: 2em;
+}
+
+.teams {
+  display: flex;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.updatename {
+  margin-bottom: 1em;
+}
